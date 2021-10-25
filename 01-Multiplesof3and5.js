@@ -5,7 +5,7 @@ function FindMultiples(num){
 var multiples = [];
 for (var i = 0; i <num; i ++ ) {
     if(i%3==0) multiples.push(i);
-    else if (i %5 ==0) multiples.push(i);
+    if (i %5 ==0) multiples.push(i);
 }
 var sum = 0;
 multiples.forEach(function(element){
